@@ -8,6 +8,7 @@ Compiler Features:
 
 
 Bugfixes:
+ * Commandline Interface: Fix resolution of paths whitelisted with ``--allowed-paths`` or implicitly due to base path, remappings and files being compiled. Correctly handle paths that do not match imports exactly due to being relative, non-normalized or empty.
  * SMTChecker: Fix false positive in external calls from constructors.
 
 
