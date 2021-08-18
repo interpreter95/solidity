@@ -51,7 +51,7 @@ contract test {
 // compileViaYul: also
 // ----
 // constructor()
-// gas irOptimized: 709526
+// gas irOptimized: 702595
 // gas legacy: 1188228
 // gas legacyOptimized: 735032
 // toSlice(string): 0x20, 11, "hello world" -> 11, 0xa0
@@ -67,10 +67,10 @@ contract test {
 // gas legacy: 25716
 // gas legacyOptimized: 23978
 // multiconcat(string,uint256): 0x40, 3, 11, "hello world" -> 0x20, 0x58, 0x68656c6c6f20776f726c6468656c6c6f20776f726c6468656c6c6f20776f726c, 0x6468656c6c6f20776f726c6468656c6c6f20776f726c6468656c6c6f20776f72, 49027192869463622675296414541903001712009715982962058146354235762728281047040 # concatenating 3 times #
-// gas irOptimized: 28449
+// gas irOptimized: 28440
 // gas legacy: 31621
 // gas legacyOptimized: 27691
 // benchmark(string,bytes32): 0x40, 0x0842021, 8, "solidity" -> 0x2020
-// gas irOptimized: 2040097
+// gas irOptimized: 2040067
 // gas legacy: 4381235
 // gas legacyOptimized: 2166117
